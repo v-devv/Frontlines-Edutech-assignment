@@ -10,7 +10,7 @@ const App = () => {
 
   if (loading)
     return (
-      <div className="text-center font-medium text-xl mt-10">Loading...</div>
+      <div className="text-center font-medium text-xl sm:text-3xl mt-10"> Loading Companies ...</div>
     );
 
   return (
